@@ -146,7 +146,7 @@ export default {
                 name: this.uname,
                 password: this.upwd
             },
-            success: function(res){   //成功之后执行的函数
+            success: (res)=>{   //成功之后执行的函数
                 console.log(res[0]["count(*)"])
                 if(res[0]["count(*)"]!=0){
                 // if(name=='qw'&& password=='123'){
@@ -157,8 +157,8 @@ export default {
                         $("#video2").modal();
                     }
                     if($('.selected').prop('checked')==true){
-                        sessionStorage.setItem("savName",name);
-                        sessionStorage.setItem("savPassword",password);//sessionsocket保存用户名与密码
+                        sessionStorage.setItem("savName",this.uname);
+                        sessionStorage.setItem("savPassword",this.upwd);//sessionsocket保存用户名与密码
                     }
                 }else{
                     $(".tishi").text("请输入正确的用户名或密码")
