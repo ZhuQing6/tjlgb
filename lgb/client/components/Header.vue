@@ -10,7 +10,7 @@
         </div>
         <div id="menu" class="collapse  navbar-collapse">
             <ul class="nav navbar-nav" id="headerLi" v-on:click="select">
-                <li><router-link to="/">首页</router-link></li><!--class="active"-->
+                <li><router-link to="/">首页</router-link></li><!--<a v-bind:href="href" v-bind:class="{active: isActive }">-->
                 <li><router-link to="/intro">关于大赛</router-link></li>
                 <li><router-link to="/training">项目培训</router-link></li>
                 <li><router-link to="/news">大赛动态</router-link></li>
@@ -32,7 +32,16 @@ export default {
             $(this).siblings().removeClass("active");
         }); 
     }
-  }
+  },
+//   props: {//页面跳转及添加class样式
+//     href: String,
+//     required: true
+//   },
+//   computed: {
+//     isActive () {
+//     return this.href === window.location.pathname
+//     }
+//   }
 }
 </script>
 

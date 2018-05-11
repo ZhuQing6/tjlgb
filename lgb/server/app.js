@@ -30,7 +30,7 @@ app.get('/', function (req, res) {
 app.get('/tjvideogo',(req,res)=>{
   let para=parseURL(req.url);
   // console.log(para)
-  let video1=fs.readFileSync("../client/assets/mp4s/go/go"+para.index+".mp4");
+  let video1=fs.readFileSync("../client/assets/mp4s/go/go"+para.index+".mp4");//注：window下此路径是./;linux下用../
   videoGo1=new Buffer(video1,"binary");
   res.setHeader("Content-Type","video/mp4");
   res.end(videoGo1);
@@ -38,7 +38,7 @@ app.get('/tjvideogo',(req,res)=>{
 app.get('/tjvideofabric',(req,res)=>{
   let para=parseURL(req.url);
   // console.log(para)
-  let video1=fs.readFileSync("../client/assets/mp4s/fabric/fabric"+para.index+".mp4");
+  let video1=fs.readFileSync("../client/assets/mp4s/fabric/fabric"+para.index+".mp4");//注：window下此路径是./;linux下用../
   videoGo1=new Buffer(video1,"binary");
   res.setHeader("Content-Type","video/mp4");
   res.end(videoGo1);
