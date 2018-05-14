@@ -9,7 +9,7 @@
             </a>
         </div>
         <div id="menu" class="collapse  navbar-collapse">
-            <ul class="nav navbar-nav" id="headerLi" v-on:click="select">
+            <ul class="nav navbar-nav" id="headerLi">
                 <li><router-link to="/">首页</router-link></li><!--<a v-bind:href="href" v-bind:class="{active: isActive }">-->
                 <li><router-link to="/intro">关于大赛</router-link></li>
                 <li><router-link to="/training">项目培训</router-link></li>
@@ -25,14 +25,17 @@
 export default {
   name: 'Header',
   methods:{
-      select:function(){
+    // select:function(){    
+    // }
+  },
+  mounted(){
         $("#headerLi").on("click","li",function(){  
             // 切换li列表样式  
             $(this).addClass("active");  
             $(this).siblings().removeClass("active");
+            $("#menu").removeClass("in");
         }); 
-    }
-  },
+  }
 //   props: {//页面跳转及添加class样式
 //     href: String,
 //     required: true

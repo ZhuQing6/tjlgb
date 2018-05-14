@@ -33,13 +33,11 @@
                     <div class="col-xs-5 text-center  col-xs-offset-1">
                         <div><img src="../assets/img/index/icon trust.png" alt="" style="width:25%;"/></div>
                         <div class="sTitle">支持单位</div>
-                        <!-- <div class="dir1"></div> -->
                         <div style="width:100%;margin-top:18%"><img src="../assets/img/index/logo.png" alt="" style="width:60%;"/></div>
                     </div>
                     <div class="col-xs-5 text-center">
                         <div><img src="../assets/img/index/icon pin.png" alt="" style="width:25%;"/></div>
                         <div class="sTitle">承办单位</div>
-                        <!-- <div class="dir1"></div> -->
                         <div style="width:100%;margin-top:18%"><img src="../assets/img/index/logo1.png" alt="" style="width:60%;"/></div>
                     </div>
                 </div>
@@ -59,8 +57,6 @@ export default {
       msg: ''
     }
   }
-//   components:{header:require('./Header.vue').default},
-//   methods: {}
 }
 </script>
 

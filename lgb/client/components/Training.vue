@@ -201,7 +201,8 @@ export default {
             $("#showVideo2").prop({"src":"/tjvideofabric?index="+index2}); 
         }); 
     }
-  }
+  },
+//   mounted(){close1,close2,selectV1,selectV2事件}
 }
 </script>
 

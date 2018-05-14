@@ -261,8 +261,6 @@ export default {
       ]
     }
   }
-//   components:{header:require('./Header.vue').default},
-//   methods: {}
 }
 </script>
 
