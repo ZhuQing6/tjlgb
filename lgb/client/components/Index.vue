@@ -3,7 +3,7 @@
     <div class="banner">
         <img src="../assets/img/top.png" alt=""/>
         <img src="../assets/img/splitbar.png" alt=""/>
-        <div class="logo"><img src="../assets/img/logo2.png" alt=""/></div>
+        <!-- <div class="logo"><img src="../assets/img/logo2.png" alt=""/></div> -->
         <div class="icon-title"><img src="../assets/img/index/home.png" alt=""/></div>
     </div>
     <div class="index">

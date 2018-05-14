@@ -3,7 +3,7 @@ function query(sql, callback){
   var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : '',
+    password : '',//TJ@123456
     database : 'tjlgb'
   });
   connection.connect();
