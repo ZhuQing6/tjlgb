@@ -373,7 +373,7 @@ video::-webkit-media-controls-panel {
     .footer .row{
         margin-top:2%;
     }
-    .top{
+    /* .top{
         width:20%;
         position:absolute;
         top:8%;
@@ -390,7 +390,7 @@ video::-webkit-media-controls-panel {
     .topImg:hover{
         background:url("../img/footer/toped.png") no-repeat center center;
         background-size:100%;
-    }
+    } */
     .ewm1{
         font-size:0.8em;
         padding-top:15px;
