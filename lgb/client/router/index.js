@@ -5,6 +5,7 @@ import Intro from '@/components/Intro'
 import Training from '@/components/Training'
 import News from '@/components/News'
 import Apply from '@/components/Apply'
+import Template from '@/components/Template'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/apply',
       name: 'Apply',
       component: Apply
+    },
+    {
+      path: '/template',
+      name: 'Template',
+      component: Template
     }
   ]
 })

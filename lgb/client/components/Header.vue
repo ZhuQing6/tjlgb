@@ -15,6 +15,7 @@
                 <li><router-link to="/training">项目培训</router-link></li>
                 <li><router-link to="/news">大赛动态</router-link></li>
                 <li><router-link to="/apply">大赛报名</router-link></li>
+                <li><router-link to="/template">初赛作品提交</router-link></li>
             </ul>
         </div>
     </div>

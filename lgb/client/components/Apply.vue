@@ -55,7 +55,8 @@ export default {
         ],
         list3:[
             {title:"附件1.区块链应用场景参考",thisHref:"./static/pdf/scene.pdf"},
-            {title:"附件2.大赛承诺书",thisHref:"./static/pdf/promise.pdf"}
+            {title:"附件2.大赛承诺书",thisHref:"./static/pdf/promise.pdf"},
+            {title:"附件3.参赛方案书规范模板",thisHref:"./static/template.docx"}
         ]
       }
   }
