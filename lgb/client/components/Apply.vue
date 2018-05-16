@@ -1,17 +1,13 @@
 <template>
 <div>
-   <div class="banner" id="banner">
+   <!-- <div class="banner" id="banner">
         <img src="../assets/img/top.png" alt="">
         <img src="../assets/img/splitbar.png" alt="">
-        <!-- <div class="logo"><img src="../assets/img/logo2.png" alt=""></div> -->
         <div class="icon-title"><img src="../assets/img/apply/apply.png" alt=""></div>
-    </div>
+    </div> -->
     <div class="apply">
         <div class="container">
             <div class="row">
-                <div class="icons">
-                    <div class="icon-titles"></div>
-                </div>
                 <div class="contents" id="apply">
                     <ol>
                         <li>报名时间:2017年11月13日—2018年4月27日</li>

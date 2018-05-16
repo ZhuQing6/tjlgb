@@ -52,16 +52,7 @@ video::-webkit-media-controls-panel {
         color:#4f96bd;
         background-color:#fff;
     }
-    @media (min-width: 768px){
-        .navbar-nav {
-            float:right; 
-        }
-    }    
-    @media (max-width: 767px){
-        .navbar-header>a>img{
-            width:50%;
-        }
-    }
+    
     /* .navbar-toggle {
         background-color: #F2F2F2;
     } */
@@ -89,12 +80,13 @@ video::-webkit-media-controls-panel {
     .icon-title{
         width:100%;
         text-align: center;
-        position:absolute; 
-        bottom:1.5%;
+        position:absolute;
+        bottom:2.0%;
     }
     .icon-title>img{
         width:3%;
     }
+    
 /**/
     .icons{
         color:#4f96bd;
@@ -220,7 +212,7 @@ video::-webkit-media-controls-panel {
     }
 /*training*/
     .training{
-        margin:15% 0;
+        margin:10% 0 10%;
         line-height:2.5em;
     }
     .videoLogo{
@@ -324,7 +316,7 @@ video::-webkit-media-controls-panel {
     }
 /*news*/
     .news{
-        margin:10% 0;
+        margin:10% 0 10%;
         color:#5F5F5F;
         line-height:2.5em;
     }
@@ -340,14 +332,14 @@ video::-webkit-media-controls-panel {
     }
 /*apply*/
     .apply{
-        margin:10% 0;
+        margin:10% 0 10%;
         line-height:2.5em;
     }
     .apply a{
         color:#5F5F5F;
     }
     .button{
-        width:25%;
+        width:20%;
         margin-top:4%;
         height:85px;
         background:url("../img/apply/applyicon.png") no-repeat 0 0;
@@ -362,7 +354,7 @@ video::-webkit-media-controls-panel {
     p>a:hover{color:#4E96BE;}
 /*template*/
     .template{
-        margin:10% 0;
+        margin:10% 0 10%;
         line-height:2.5em;
     }
     .template a{
@@ -412,6 +404,29 @@ video::-webkit-media-controls-panel {
     .ewm2{
         font-size:0.8em;
         padding-top:15px;
+    }
+    @media (min-width: 768px){
+        .navbar-nav {
+            float:right; 
+        }
+    }    
+    @media (max-width: 767px){
+        .navbar-header>a>img{
+            width:50%;
+        }
+        .intro{margin-top:10%;}
+        .apply{
+            margin:20% 0 10%;
+        }
+        .news{
+            margin:20% 0 10%;
+        }
+        .training{
+            margin:20% 0 10%;
+        }
+        .template{
+            margin:20% 0 10%;
+        }
     }
     @media screen and (max-width: 991px){
         .ewm1{

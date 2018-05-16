@@ -1,11 +1,10 @@
 <template>
   <div>
-    <div class="banner" id="banner">
+    <!-- <div class="banner" id="banner">
         <img src="../assets/img/top.png" alt="">
         <img src="../assets/img/splitbar.png" alt="">
-        <!-- <div class="logo"><img src="../assets/img/logo2.png" alt=""></div> -->
         <div class="icon-title"><img src="../assets/img/intro/iconcompetition.png" alt=""></div>
-    </div>
+    </div> -->
     <div class="intro">
         <div class="floor1">
             <div class="container">
